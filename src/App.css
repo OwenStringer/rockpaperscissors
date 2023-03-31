@@ -17,6 +17,16 @@ body {
   cursor: pointer;
 }
 
+.modal-content {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.modal-dialog {
+  margin-top: 150px;
+}
+
 .red {
   color: red;
 }
@@ -44,3 +54,12 @@ body {
   left: 0;
   right: 0;
 }
+
+.opponent-choice {
+  width: 100px; /* adjust as needed */
+  height: 100px; /* adjust as needed */
+  margin-top: 10px; /* adjust as needed */
+  display: block;
+  margin: 0 auto;
+}
+
