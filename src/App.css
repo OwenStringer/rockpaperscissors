@@ -1,0 +1,46 @@
+body {
+  background-color: bisque;
+}
+
+/* Navbar button styles */
+.mybtn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ffffff;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Hover styles */
+.mybtn:hover {
+  color: #fff; /* Change the color to something visible */
+  transform: scale(0.9);
+}
+
+/* Active (click) styles */
+.mybtn:active {
+  color: #fff; /* Change the color to something visible */
+  transform: scale(0.8);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
