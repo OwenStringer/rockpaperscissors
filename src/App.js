@@ -133,14 +133,14 @@ function App() {
           <img src={opponentChoice.image} alt={opponentChoice.name} className="opponent-choice" />
         </div>
       )}
-      <div className="mt-3">
+      {/* <div className="mt-3">
         {round < 4 && (
           <h4>{`Round ${round} - Opponent: ${opponentWins} | You: ${playerScore}`}</h4>
         )}
         {round === 4 && (
           <h4>{`Final Score - Opponent: ${opponentWins} | You: ${playerScore}`}</h4>
         )}
-      </div>
+      </div> */}
       <div className="mt-3">{opponentText}</div>
       {/* {round === 4 && (
         <div className="fixed-bottom text-center">
